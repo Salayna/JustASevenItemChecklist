@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body onload="initialize()">
+<h1> To-Do List</h1>
+<div id="progress-bar-container">
+    <div id="percentage-container">
+        <div id="percentage">
+
+        </div>
+    </div>
+    <div id="count">
+
+    </div>
+</div>
+
+<div id="reset">
+    <button onclick="reset()">
+        Reset
+    </button>
+</div>
+<div id="to-do">
+    <div class="task-container">
+        <input type="checkbox" id="tache-une" class="task">
+        <label for="tache-une"> Task 1 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-deux" class="task">
+        <label for="tache-deux"> Task 2 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-trois" class="task">
+        <label for="tache-trois"> Task 3 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-quatre" class="task">
+        <label for="tache-quatre"> Task 4 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-cinq" class="task">
+        <label for="tache-cinq"> Task 5 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-six" class="task">
+        <label for="tache-six"> Task 6 </label><br>
+    </div>
+    <div class="task-container">
+        <input type="checkbox" id="tache-sept" class="task">
+        <label for="tache-sept"> Task 7 </label><br>
+    </div>
+    <h1 id="finished">Félicitations !</h1>
+</div>
+<script src="./ToDo.js"></script>
+</body>
+</html>
